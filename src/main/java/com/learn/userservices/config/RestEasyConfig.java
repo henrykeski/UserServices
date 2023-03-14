@@ -1,13 +1,13 @@
 package com.learn.userservices.config;
 
-import javax.ws.rs.ext.Provider;
-
 import com.learn.userservices.service.UserService;
 import org.jboss.resteasy.plugins.spring.SpringResourceFactory;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import javax.ws.rs.ext.Provider;
 
 @Provider
 @Configuration
